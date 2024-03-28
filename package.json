@@ -2,7 +2,7 @@
   "name": "buy-me-colors",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
     "dev": "nodemon server.js"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AparnaSIyer/buy-me-colors#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "stripe": "^14.22.0"
